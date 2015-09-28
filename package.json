@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/.bin/tape ./test/*"
+    "test": "./node_modules/jshint/bin/jshint hello.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/nofootnotes/learn-node-tdd",
   "devDependencies": {
+    "jshint": "^2.8.0",
     "shot": "^1.6.1",
     "tape": "^4.2.0"
   },
